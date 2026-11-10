@@ -1,6 +1,7 @@
 [submodule "external/nvapi"]
 	path = external/nvapi
 	url = https://github.com/NVIDIA/nvapi.git
+	update = none
 [submodule "include/native/directx"]
 	path = include/native/directx
 	url = https://github.com/misyltoad/mingw-directx-headers
