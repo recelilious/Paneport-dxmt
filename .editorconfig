@@ -1,0 +1,12 @@
+# Copyright 2026 recelilious and the Paneport contributors
+# SPDX-License-Identifier: LGPL-2.1-or-later
+
+# The settings of .clang-format, which keeps clang-format's default LLVM style, for editors.
+# root = true keeps the settings of a repository that holds this one as a submodule, such as
+# Paneport, from reaching these files.
+root = true
+
+[*.{c,cc,cpp,h,hpp,inl,mm,m}]
+indent_style = space
+indent_size = 2
+max_line_length = 80
